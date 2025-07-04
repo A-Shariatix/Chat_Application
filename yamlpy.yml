@@ -1,4 +1,4 @@
 info:
-host: localhost
-port: 12345
-encoding: 'ascii
+  host: localhost
+  port: 12378
+encoding: 'ascii'
