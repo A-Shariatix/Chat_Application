@@ -1,5 +1,5 @@
 import socket
-from util_0 import Config, read_config_data
+from Util import Config, read_config_data
 import threading
 
 
