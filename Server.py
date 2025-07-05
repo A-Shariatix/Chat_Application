@@ -1,10 +1,12 @@
 import socket
 import util
+import lang_en
 import threading
 
 
 def register(conn):
     code = conn.recv(1024).decode(config_object.encoding)
+    message = f"code {code} entered"
     username = conn.recv(1024).decode(config_object.encoding)
     password = conn.recv(1024).decode(config_object.encoding)
     if code == 'login':
